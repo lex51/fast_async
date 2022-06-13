@@ -1,5 +1,16 @@
 # test_fastapi
 
+## run project
+docker-compose up 
+
+## content of .env in root_dir
+```json
+COMPOSE_FILE=base.yml
+POSTGRES_USER=...
+POSTGRES_PASSWORD=...
+POSTGRES_DB=...
+```
+
 link to doc
 http://fastapi.localhost:8008/docs or
 http://fastapi.localhost:8008/redoc
@@ -27,13 +38,7 @@ curl -s fastapi.localhost:8008/ping | jq
 
 ./locus_test.sh
 
-## content of .env in root_dir
-```json
-COMPOSE_FILE=base.yml
-POSTGRES_USER=...
-POSTGRES_PASSWORD=...
-POSTGRES_DB=...
-```
+
 
 
 ## for development
