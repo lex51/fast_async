@@ -4,7 +4,7 @@ fastapi
 psycopg2-binary
 SQLAlchemy
 uvicorn
-# pydantic
-email-validator #?
+email-validator
 pytest
-requestsPP
+requests
+locust

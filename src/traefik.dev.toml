@@ -6,6 +6,7 @@
 # Traefik dashboard over http
 [api]
 insecure = true
+dashboard = true
 
 [log]
 level = "DEBUG"
@@ -15,4 +16,4 @@ level = "DEBUG"
 # containers are not discovered automatically
 [providers]
   [providers.docker]
-    exposedByDefault = false
+    exposedByDefault = true
