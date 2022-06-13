@@ -16,9 +16,16 @@ curl -s fastapi.localhost:8008/ping | jq
 }
 ```
 
-run tests
+## run pytest
 
-docker-compose exec web pytest .
+./pytest.sh
+
+
+## run load_test
+*on localmachine need install packet - pip install locust*
+*web on http://0.0.0.0:8089/*
+
+./locus_test.sh
 
 ## content of .env in root_dir
 ```json
@@ -29,5 +36,5 @@ POSTGRES_DB=...
 ```
 
 
-for development
+## for development
 on local machine - *pip install pre-commit* and *pre-commit install* in root dir
